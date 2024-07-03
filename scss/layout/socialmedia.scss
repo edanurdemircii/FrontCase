@@ -1,0 +1,32 @@
+.socialMedia{
+    &__list{
+        list-style: none;
+        display: flex;
+        column-gap: 13px;
+        justify-content: flex-end;
+    }
+    &__link i{
+        font-size: 14px;
+        color: #fff;
+        border: 1px solid #fff;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    &__link:hover i {
+        color: $borderEllipse-color;
+        border-color:$borderEllipse-color;
+    }
+    &__item{
+        padding-right: 5px;
+    }
+
+
+}
+
+
+
+

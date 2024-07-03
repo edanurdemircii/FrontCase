@@ -1,0 +1,61 @@
+
+.slider{
+    &__buttons{
+        display: flex;
+        column-gap: 50px;
+    }
+    &__button{
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: #fff;
+        border-radius: 20px;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    &__button svg{
+        padding:4px;
+        fill:#fff;
+        height: 16px;
+        width: 16px;
+        background-color:#7E191C ;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+    &__videoButton{
+        
+        color: $text-color;
+        display: inline-flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+    &__videoButton svg{
+        width: 32px;
+        height: 32px;
+        fill:#0f0e0e;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+}
+.education{
+   
+    &__button{
+        margin-top: 50px;
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: #fff;
+        border-radius: 10px;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    &__button svg{
+        padding:4px;
+        fill:#fff;
+        width: 20px;
+        margin-left: 10px;
+    }
+}

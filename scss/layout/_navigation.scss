@@ -1,0 +1,16 @@
+.navigation__list{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+
+.navigation__link{
+    color: #655A5A;
+    text-decoration: none;
+   
+}
+
+.navigation__link:hover{
+        color: #AD2225;
+        border-bottom: 1px solid #0932ba;
+}
